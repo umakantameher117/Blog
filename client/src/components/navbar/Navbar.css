@@ -1,0 +1,63 @@
+.nav{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(254, 254, 254, 0.5); /* Set a contrasting text color */ 
+}
+.top{
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+  height: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 5px;
+  
+}
+
+.topleft, .topright{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topcenter{
+  flex: 6;
+}
+.topIcon{
+  font-style: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+  color: #444;
+  cursor: pointer;
+}
+.img{
+height: 30px;
+width: 30px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+}
+
+.search{
+font-style: 18px;
+cursor: pointer;
+color: #666;
+margin-left: 10px;-
+}
+
+.toplist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.toplist li {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px; 
+  font-weight: 300;
+}
